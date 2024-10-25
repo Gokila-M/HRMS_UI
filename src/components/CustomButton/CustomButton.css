@@ -1,0 +1,16 @@
+.btn{
+    align-items: center;
+    background-color: #1167b2;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-weight: 600;
+    gap: 10px;
+    height: 40px;
+    justify-content: center;
+    width: 10%;
+    /* backgroundColor:#1167b2;
+     color="white" fontFamily= "Roboto, Helvetica, Arial, sans-serif" width="150px" border="1px solid #1167b2" borderRadius="8px" height="40px"  */
+}

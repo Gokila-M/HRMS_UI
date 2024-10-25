@@ -1,0 +1,45 @@
+.modalForuserProfile{
+    min-width: 70%;
+    margin-left: 25%;
+    margin-right: 2%;
+}
+
+@media screen and (max-width: 1200px) {
+    .modalForuserProfile{
+        margin-left: 0%;
+        margin-right: 0;
+    }
+}
+  
+
+.adminContainer{
+    display: flex;
+    justify-content: flex-start;
+    width: 83%;
+}
+
+.adminWrapper{
+    width: 100%;
+    max-width: 1160px;
+}
+
+.adminButton{
+    display: flex;
+}
+
+#AdminAddUser{
+    margin-left: 0px;
+}
+
+.AdminAddUser,.AdminAddHall,.AdminAddPeriod,.AdminGetAll{
+    margin:13px 6px;
+    padding: 10px;
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    max-width: 200px;
+    min-width: fit-content
+}

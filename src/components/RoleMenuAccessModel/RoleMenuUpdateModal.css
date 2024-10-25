@@ -1,0 +1,23 @@
+.modelRoleMenuTable{
+    margin-left: 120px;
+}
+
+.upRoleMenu{
+    margin-left: 120px;
+}
+
+@media screen and (max-width: 1200px) {
+    .modelRoleMenuTable{
+        margin-left: 0px;
+    }
+    .upRoleMenu{
+        margin-left: 0px;
+        min-width: 500px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .upRoleMenu{
+        min-width: 500px;
+    }
+}
